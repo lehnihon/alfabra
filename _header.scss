@@ -3,7 +3,11 @@
 }
 
 nav#principal{
-    background-color:#3876ba;
+    background: #3876ba; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#354899, #3a70b6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#354899, #3a70b6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#354899, #3a70b6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left,#354899, #3a70b6); /* Standard syntax */
     padding:10px 0;
 }
 
