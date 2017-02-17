@@ -14,7 +14,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: $primaryColor;
+		background: #FFFFFF;
 		@include prefixed(transform, scaleX(1));
 		@include prefixed(transform-origin, 50%);
 		@include prefixed(transition-property, transform);
@@ -25,7 +25,7 @@
 	&:hover,
 	&:focus,
 	&:active {
-		color: white;
+		color: white !important;
 
 		&:before {
 			@include prefixed(transform, scaleX(0));

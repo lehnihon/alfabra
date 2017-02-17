@@ -1,7 +1,13 @@
 #footer{
 	padding:60px 0;
-	background-color:#514aa3;
-    color:#FFFFFF;
+	background-color:#ebeff4;
+
+	a{
+		color:#343841;
+	}
+	a:hover{
+		color:#b2b7c2;
+	}
 }
 
 @media (max-width: 991px) {  

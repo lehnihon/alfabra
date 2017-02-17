@@ -27,10 +27,14 @@ new WOW().init();
 	<nav id="principal">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 text-left">
-					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro logo img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" /></a>
+				<div class="col-sm-3 text-left">
+					<a id="crossfade" href="<?php echo home_url( '/' ); ?>">
+						<img alt="logo" class="bottom" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logob.png"; ?>" />
+						<img alt="logo" class="top" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" />
+					</a>
 				</div>
-				<div class="col-md-9">
+				<div class="col-sm-9">
+					<?php get_search_form(); ?>
 				</div>
 			</div>
 		</div>
@@ -38,24 +42,27 @@ new WOW().init();
 	<nav id="secundario">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-12">
 					<div class="menu-responsivo">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
-						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
-						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
-						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li
-						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></li>
+						<li><a href="<?php echo home_url( '/' ); ?>">inicio</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">a empresa</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">elevadores</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">pós venda</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">leis e normas</a></li
+						><li><a href="<?php echo home_url( '/' ); ?>">fale conosco</a></li>
 						</ul>
 					</div>
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="hvr-underline-from-left" href="#contato">fale conosco</a></div>				
-						<div class="menu-op"><a class="hvr-underline-from-left" href="#sobre">a agência</a></div>
-						<div class="menu-op"><a class="hvr-underline-from-left" href="#servicos">soluções</a></div>
-						<div class="menu-op"><a class="hvr-underline-from-left" href="#page">início</a></div>
+						<a class="hvr-shutter-in-horizontal" href="#">fale conosco</a>
+						<a class="hvr-shutter-in-horizontal" href="#">leis e normas</a>
+						<a class="hvr-shutter-in-horizontal" href="#">pós venda</a>
+						<a class="hvr-shutter-in-horizontal" href="#">elevadores</a>
+						<a class="hvr-shutter-in-horizontal" href="#">a empresa</a>
+						<a class="hvr-shutter-in-horizontal" href="#">início</a>
 					</div>
 				</div>
 			</div>

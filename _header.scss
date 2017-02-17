@@ -4,23 +4,18 @@
 
 nav#principal{
     background-color:#3876ba;
+    padding:10px 0;
 }
 
 nav#secundario{
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 1010;
     background-color:#FFFFFF;
     div.menu-header{
-        div.menu-op{
-
+        a{
+            display:block;
             float:right;
-            margin-left: 35px;
-            a{
-                color:#343841;
-                font-size:16px;
-            }
+            padding: 10px 30px;
+            color:#343841;
+            font-size:16px;
 
         }
 
@@ -35,13 +30,65 @@ nav#secundario.fixar {
     right: 0 !important;
     left: 0 !important;
     top: 0 !important;
-    box-shadow: 0px 2px 2px #ececec;
-    .menu-header{
-        margin-top:5px !important;
+    box-shadow: 0px 1px 1px #ececec;
+}
+
+.search-form{
+    margin-right:30px;
+    margin-top:60px;
+    .pesquisar-lupa{
+        width:45px;
+        height:40px;
+        border-top-left-radius:5px;
+        border-bottom-left-radius:5px;
+        background-color:#FFFFFF;
+        display:block;
+        float:right;
+        img{
+            float:right;
+            margin-top:7px;
+        }
+    }
+    .pesquisar-input{
+        border:0;
+        padding:10px 20px;
+        display:block;
+        float:right;
+        width:70%;
+    }
+    .pesquisar-submit{
+        border:0;
+        padding:10px 25px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+        display:block;
+        float:right;
+        font-weight:bold;
     }
 }
 
-@media (max-width: 991px) {  
+#crossfade {
+    position:relative;
+    height:164px;
+    width:292px;
+    display:block;
+}
+#crossfade img {
+    position:absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+}
+ 
+#crossfade img.top:hover {
+    opacity:0;
+}
+
+@media (max-width: 768px) {  
     div.menu-responsivo{
         width: 50px;
         text-align: left;
@@ -53,7 +100,7 @@ nav#secundario.fixar {
     }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 768px) { 
     div.menu-responsivo{
         display: none;
     }
