@@ -26,7 +26,7 @@ get_header(); ?>
 						<a href="#">saiba mais ></a>
 					</div>
 					<div class="foto animated fadeIn">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Macas e Leitos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@ get_header(); ?>
 			<div class="col-sm-12">
 				<div class="secao-b clearfix animated fadeInRight">
 					<div class="foto animated fadeIn">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Panorâmicos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 					<div class="desc animated fadeIn">
 						<h2>elevadores de passageiros elevadores para pessoas</h2>
@@ -74,7 +74,7 @@ get_header(); ?>
 						<a href="#">saiba mais ></a>
 					</div>
 					<div class="foto animated fadeIn wow" data-wow-delay="0.75s">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Macas e Leitos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@ get_header(); ?>
 			<div class="col-sm-12">
 				<div class="secao-b clearfix animated fadeInRight wow">
 					<div class="foto animated fadeIn wow" data-wow-delay="0.75s">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Panorâmicos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 					<div class="desc animated fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevadores de passageiros elevadores para pessoas</h2>
@@ -122,7 +122,7 @@ get_header(); ?>
 						<a href="#">saiba mais ></a>
 					</div>
 					<div class="foto animated fadeIn wow" data-wow-delay="0.75s">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto1.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Macas e Leitos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 				</div>
 			</div>
@@ -131,7 +131,7 @@ get_header(); ?>
 			<div class="col-sm-12">
 				<div class="secao-b clearfix animated fadeInRight wow">
 					<div class="foto animated fadeIn wow" data-wow-delay="0.75s">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto2.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Panorâmicos Alfabra Elevadores.jpg"; ?>" />
 					</div>
 					<div class="desc animated fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevadores de passageiros elevadores para pessoas</h2>

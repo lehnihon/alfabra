@@ -40,8 +40,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #343841;
     font-size: 21px; }
   #page h4 {
+    color: #343841;
     font-size: 18px; }
   #page h5 {
+    color: #343841;
     font-size: 16px; }
   #page #topo {
     background-color: black; }
@@ -75,7 +77,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     top: 0 !important;
     box-shadow: 0px 1px 1px #ececec; }
   #page .search-form {
-    margin-right: 30px;
     margin-top: 60px; }
     #page .search-form .pesquisar-lupa {
       width: 45px;
@@ -157,7 +158,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           #page #home .row .secao-a .desc a:hover, #page #home .row .secao-b .desc a:hover {
             color: #b2c8ff; }
   #page #parceiros {
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: left;
     background-color: #FFFFFF; }
     #page #parceiros h3 {
@@ -168,12 +169,63 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #parceiros p {
       margin-bottom: 30px; }
   #page #footer {
-    padding: 60px 0;
-    background-color: #ebeff4; }
+    padding: 40px 0;
+    background-color: #ebeff4;
+    text-align: left; }
     #page #footer a {
       color: #343841; }
     #page #footer a:hover {
       color: #b2b7c2; }
+    #page #footer ul {
+      padding: 0;
+      list-style: none;
+      text-align: left; }
+    #page #footer h5 {
+      text-align: left;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccd5e0;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-right: 20px; }
+    #page #footer ul.redes_sociais_footer {
+      height: 30px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page #footer ul.redes_sociais_footer li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page #footer ul.redes_sociais_footer li {
+      margin-right: 5px; }
+    #page #footer ul.redes_sociais_footer a {
+      display: inline-block;
+      width: 32px;
+      height: 30px; }
+    #page #footer ul.redes_sociais_footer .youtube {
+      background-image: url("images/redes-bot.jpg");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 30px;
+      display: inline-block; }
+    #page #footer ul.redes_sociais_footer .instagram {
+      background-image: url("images/redes-bot.jpg");
+      background-position: -41px,center;
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 30px;
+      display: inline-block; }
+    #page #footer ul.redes_sociais_footer .twitter {
+      background-image: url("images/redes-bot.jpg");
+      background-position: -82px,center;
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 30px;
+      display: inline-block; }
+  #page #copy {
+    padding: 30px 0;
+    background-color: #cad3df; }
   #page .input-select {
     border: 2px solid #FFFFFF;
     background-color: #514aa3;
