@@ -27,13 +27,13 @@ new WOW().init();
 	<nav id="principal">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 text-left">
+				<div class="col-sm-3 text-left wow fadeIn">
 					<a id="crossfade" href="<?php echo home_url( '/' ); ?>">
 						<img alt="logo" class="bottom" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logob.png"; ?>" />
 						<img alt="logo" class="top" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" />
 					</a>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-9 wow fadeIn">
 					<?php get_search_form(); ?>
 				</div>
 			</div>
@@ -42,7 +42,7 @@ new WOW().init();
 	<nav id="secundario">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12 wow fadeIn">
 					<div class="menu-responsivo">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
@@ -57,12 +57,12 @@ new WOW().init();
 						</ul>
 					</div>
 					<div class="menu-header clearfix">
-						<a class="hvr-shutter-in-horizontal" href="#">fale conosco</a>
-						<a class="hvr-shutter-in-horizontal" href="#">leis e normas</a>
-						<a class="hvr-shutter-in-horizontal" href="#">pós venda</a>
-						<a class="hvr-shutter-in-horizontal" href="#">elevadores</a>
-						<a class="hvr-shutter-in-horizontal" href="#">a empresa</a>
-						<a class="hvr-shutter-in-horizontal" href="#">início</a>
+						<a href="#">fale conosco</a>
+						<a href="#">leis e normas</a>
+						<a href="#">pós venda</a>
+						<a href="#">elevadores</a>
+						<a href="#">a empresa</a>
+						<a href="#">início</a>
 					</div>
 				</div>
 			</div>

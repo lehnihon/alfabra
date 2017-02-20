@@ -66,7 +66,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       float: right;
       padding: 10px 30px;
       color: #343841;
-      font-size: 16px; }
+      font-size: 16px;
+      -webkit-transition: color 0.5s ease-in-out;
+      -moz-transition: color 0.5s ease-in-out;
+      -o-transition: color 0.5s ease-in-out;
+      -ms-transition: color 0.5s ease-in-out;
+      transition: color 0.5s ease-in-out; }
+    #page nav#secundario div.menu-header a:hover {
+      color: #0048ff; }
   #page nav#secundario.fixar {
     padding: 0 !important;
     position: fixed !important;
@@ -314,6 +321,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #FFFFFF;
     display: inline-block;
     margin-bottom: 30px; }
+
+.wow {
+  visibility: hidden; }
 
 .videoWrapper {
   position: relative;

@@ -10,7 +10,7 @@
 ?>
 	<div id="footer">
 		<div class="container">
-			<div class="row">
+			<div class="row animated fadeInUp wow">
 				<div class="col-md-3">
 					<h5>Alfabra</h5>
 					<ul>
