@@ -139,30 +139,65 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: none; }
     #page ul.menu-header {
       display: block; } }
-  #page #home {
+  #page .secao-a-background {
     background-color: #ebeff4;
     padding-top: 30px; }
-    #page #home .row {
+    #page .secao-a-background .row {
       margin-bottom: 30px; }
-      #page #home .row .secao-a, #page #home .row .secao-b {
+      #page .secao-a-background .row .secao-a {
         border-radius: 5px;
         background-color: #FFFFFF; }
-        #page #home .row .secao-a .desc, #page #home .row .secao-a .foto, #page #home .row .secao-b .desc, #page #home .row .secao-b .foto {
+        #page .secao-a-background .row .secao-a .desc {
           float: left;
-          width: 50%; }
-        #page #home .row .secao-a .desc, #page #home .row .secao-b .desc {
+          width: 35%; }
+        #page .secao-a-background .row .secao-a .foto {
+          float: right;
+          width: 65%; }
+        #page .secao-a-background .row .secao-a img {
+          border-left: 15px solid #ebeff4; }
+        #page .secao-a-background .row .secao-a .desc {
           text-align: left;
           padding: 30px 25px; }
-          #page #home .row .secao-a .desc h2, #page #home .row .secao-b .desc h2 {
+          #page .secao-a-background .row .secao-a .desc h2 {
             display: inline-block;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             border-bottom: 1px solid #F0F0F0;
-            margin-bottom: 10px; }
-          #page #home .row .secao-a .desc a, #page #home .row .secao-b .desc a {
+            margin-bottom: 20px; }
+          #page .secao-a-background .row .secao-a .desc a {
             margin-top: 30px;
             display: inline-block;
             color: #6691ff; }
-          #page #home .row .secao-a .desc a:hover, #page #home .row .secao-b .desc a:hover {
+          #page .secao-a-background .row .secao-a .desc a:hover {
+            color: #b2c8ff; }
+  #page .secao-b-background {
+    background-color: #FFFFFF;
+    padding-top: 30px; }
+    #page .secao-b-background .row {
+      margin-bottom: 30px; }
+      #page .secao-b-background .row .secao-b {
+        border-radius: 5px;
+        background-color: #ebeff4; }
+        #page .secao-b-background .row .secao-b .desc {
+          float: right;
+          width: 35%; }
+        #page .secao-b-background .row .secao-b .foto {
+          float: left;
+          width: 65%; }
+        #page .secao-b-background .row .secao-b img {
+          border-right: 15px solid #FFFFFF; }
+        #page .secao-b-background .row .secao-b .desc {
+          text-align: left;
+          padding: 30px 25px; }
+          #page .secao-b-background .row .secao-b .desc h2 {
+            display: inline-block;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #F0F0F0;
+            margin-bottom: 20px; }
+          #page .secao-b-background .row .secao-b .desc a {
+            margin-top: 30px;
+            display: inline-block;
+            color: #6691ff; }
+          #page .secao-b-background .row .secao-b .desc a:hover {
             color: #b2c8ff; }
   #page #parceiros {
     padding: 40px 0;
@@ -175,6 +210,43 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 10px; }
     #page #parceiros p {
       margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    #page .secao-a {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap; }
+      #page .secao-a .desc {
+        float: none !important;
+        order: 2;
+        flex: 1 100%; }
+      #page .secao-a .foto {
+        float: none !important;
+        order: 1;
+        flex: 1 100%; }
+      #page .secao-a img {
+        border-left: 0 !important; }
+    #page .secao-b {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap; }
+      #page .secao-b .desc {
+        float: none !important;
+        order: 2;
+        flex: 1 100%; }
+      #page .secao-b .foto {
+        float: none !important;
+        order: 1;
+        flex: 1 100%; }
+      #page .secao-b img {
+        border-right: 0 !important; } }
   #page #footer {
     padding: 40px 0;
     background-color: #ebeff4;

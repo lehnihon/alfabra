@@ -1,17 +1,76 @@
-#home{
+.secao-a-background{
 	background-color:#ebeff4;
 	padding-top:30px;
 
 	.row{
 		margin-bottom:30px;
 
-		.secao-a, .secao-b {
+		.secao-a {
 			border-radius:5px;
 			background-color:#FFFFFF;
 
-			.desc, .foto{
+			.desc{
 				float:left;
-				width:50%;
+				width:35%;
+			}
+
+			.foto{
+				float:right;
+				width:65%;
+			}
+
+			img{
+				border-left:15px solid #ebeff4;
+			}
+
+			.desc{
+				text-align:left;
+				padding:30px 25px;
+
+
+				h2{
+					display:inline-block;
+					padding-bottom:20px;
+					border-bottom:1px solid #F0F0F0;
+					margin-bottom:20px;
+				}
+
+				a{
+					margin-top:30px;
+					display:inline-block;
+					color:#6691ff;
+				}
+				a:hover{
+					color:#b2c8ff;
+				}
+			}
+		}
+	}
+}
+
+.secao-b-background{
+	background-color:#FFFFFF;
+	padding-top:30px;
+
+	.row{
+		margin-bottom:30px;
+
+		.secao-b {
+			border-radius:5px;
+			background-color:#ebeff4;
+
+			.desc{
+				float:right;
+				width:35%;
+			}
+
+			.foto{
+				float:left;
+				width:65%;
+			}
+
+			img{
+				border-right:15px solid #FFFFFF;
 			}
 
 			.desc{
@@ -20,9 +79,9 @@
 
 				h2{
 					display:inline-block;
-					padding-bottom:10px;
+					padding-bottom:20px;
 					border-bottom:1px solid #F0F0F0;
-					margin-bottom:10px;
+					margin-bottom:20px;
 				}
 
 				a{
@@ -55,8 +114,54 @@
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+	.secao-a {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
 
+		.desc{
+			float:none !important;
+			order: 2;
+			flex: 1 100%;
+		}
+		.foto{
+			float:none !important;
+			order: 1;
+			flex: 1 100%;
+		}
+		img{
+			border-left:0 !important;
+		}
+	}
+
+	.secao-b {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+
+		.desc{
+			float:none !important;
+			order: 2;
+			flex: 1 100%;
+		}
+		.foto{
+			float:none !important;
+			order: 1;
+			flex: 1 100%;
+		}
+		img{
+			border-right:0 !important;
+		}
+	}
 }
 
 

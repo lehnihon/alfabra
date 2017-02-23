@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<div id="home">
+<div class="secao-a-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -31,6 +31,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-b-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-b clearfix  fadeInRight wow">
@@ -55,6 +59,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-a-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-a clearfix fadeInLeft wow">
@@ -77,6 +85,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-b-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-b clearfix  fadeInRight wow">
@@ -104,6 +116,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-a-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
@@ -129,6 +145,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-b-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-b clearfix  fadeInRight wow">
@@ -152,6 +172,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-a-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
@@ -178,6 +202,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-b-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-b clearfix  fadeInRight wow">
@@ -201,7 +229,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-
+	</div>
+</div>
+<div class="secao-a-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
@@ -223,11 +254,15 @@ get_header(); ?>
 						<a href="#">saiba mais ></a>
 					</div>
 					<div class="foto  fadeIn wow" data-wow-delay="0.75s">
-						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores-de-Cargas-Alfabra-Elevadores2.jpg"; ?>" />
+						<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Cargas Alfabra Elevadores.jpg"; ?>" />
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="secao-b-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-b clearfix  fadeInRight wow">
@@ -253,7 +288,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-
+	</div>
+</div>
+<div class="secao-a-background">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
