@@ -151,9 +151,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           float: left;
           width: 35%; }
         #page .secao-a-background .row .secao-a .foto {
+          diplay: block;
           float: right;
           width: 65%; }
-        #page .secao-a-background .row .secao-a img {
+        #page .secao-a-background .row .secao-a img.home-image {
           border-left: 15px solid #ebeff4; }
         #page .secao-a-background .row .secao-a .desc {
           text-align: left;
@@ -181,9 +182,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           float: right;
           width: 35%; }
         #page .secao-b-background .row .secao-b .foto {
+          diplay: block;
           float: left;
           width: 65%; }
-        #page .secao-b-background .row .secao-b img {
+        #page .secao-b-background .row .secao-b img.home-image {
           border-right: 15px solid #FFFFFF; }
         #page .secao-b-background .row .secao-b .desc {
           text-align: left;
@@ -199,6 +201,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
             color: #6691ff; }
           #page .secao-b-background .row .secao-b .desc a:hover {
             color: #b2c8ff; }
+  #page .secao-a-background .foto, #page .secao-b-background .foto {
+    position: relative; }
+    #page .secao-a-background .foto .home-image, #page .secao-b-background .foto .home-image {
+      opacity: 1;
+      transition: 1.5s ease;
+      backface-visibility: hidden; }
+    #page .secao-a-background .foto .middle, #page .secao-b-background .foto .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); }
+    #page .secao-a-background .foto .text, #page .secao-b-background .foto .text {
+      width: 30px;
+      height: 30px;
+      display: block; }
+      #page .secao-a-background .foto .text img, #page .secao-b-background .foto .text img {
+        opacity: 0.8; }
+  #page .secao-a-background .foto:hover .middle, #page .secao-b-background .foto:hover .middle {
+    opacity: 1; }
+  #page .secao-a-background .foto:hover .home-image, #page .secao-b-background .foto:hover .home-image {
+    opacity: 0.3; }
   #page #parceiros {
     padding: 40px 0;
     text-align: left;
@@ -259,6 +285,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 0;
       list-style: none;
       text-align: left; }
+      #page #footer ul li {
+        margin-bottom: 8px; }
     #page #footer h5 {
       text-align: left;
       padding-bottom: 10px;

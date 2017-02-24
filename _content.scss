@@ -15,11 +15,12 @@
 			}
 
 			.foto{
+				diplay:block;
 				float:right;
 				width:65%;
 			}
 
-			img{
+			img.home-image{
 				border-left:15px solid #ebeff4;
 			}
 
@@ -65,11 +66,12 @@
 			}
 
 			.foto{
+				diplay:block;
 				float:left;
 				width:65%;
 			}
 
-			img{
+			img.home-image{
 				border-right:15px solid #FFFFFF;
 			}
 
@@ -95,6 +97,47 @@
 			}
 		}
 	}
+}
+
+.secao-a-background, .secao-b-background{
+	.foto{
+		position:relative;
+
+		.home-image{
+			opacity: 1;
+			transition: 1.5s ease;
+			backface-visibility: hidden;
+		}
+
+		.middle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+		}
+
+		.text{
+			width:30px;
+			height:30px;
+			display:block;
+
+			img{
+				opacity: 0.8;
+			}
+		}
+
+	}
+
+	.foto:hover .middle{
+		opacity: 1;
+	}
+	.foto:hover .home-image{
+		opacity: 0.3;
+	}
+
 }
 
 #parceiros{
