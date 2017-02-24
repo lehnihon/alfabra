@@ -8,10 +8,10 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
 					<div class="desc fadeIn wow" data-wow-delay="0.5s">
-						<h2>elevadores panorâmicos</h2>
+						<h1>elevadores panorâmicos</h1>
 						<p>
 							Nossos <strong>elevadores panorâmicos</strong> convidam as pessoas para 
 							uma viagem de bom gosto, conforto e elegância aos demais 
@@ -39,7 +39,7 @@ get_header(); ?>
 <div class="secao-b-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
 					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Passageiros Alfabra Elevadores.jpg"; ?>" />
@@ -70,7 +70,7 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix fadeInLeft wow">
 					<div class="desc  fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevadores de macas e elevadores de leitos</h2>
@@ -99,7 +99,7 @@ get_header(); ?>
 <div class="secao-b-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
 					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Residenciais Alfabra Elevadores.jpg"; ?>" />
@@ -133,7 +133,7 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
 					<div class="desc  fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevadores para acessibilidade elevadores de uso restrito</h2>
@@ -165,7 +165,7 @@ get_header(); ?>
 <div class="secao-b-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
 					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Plataformas para Acessibilidade Alfabra Elevadores.jpg"; ?>" />
@@ -195,7 +195,7 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
 					<div class="desc  fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevador de carros para estacionamento em garagem vertical</h2>
@@ -228,7 +228,7 @@ get_header(); ?>
 <div class="secao-b-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
 					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Uso Misto Alfabra Elevadores.jpg"; ?>" />
@@ -258,7 +258,7 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
 					<div class="desc  fadeIn wow" data-wow-delay="0.5s">
 						<h2>elevadores de carga</h2>
@@ -291,7 +291,7 @@ get_header(); ?>
 <div class="secao-b-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
 					<a href="#" class="foto  fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Monta Cargas e Monta Pratos Alfabra Elevadores.jpg"; ?>" />
@@ -323,7 +323,7 @@ get_header(); ?>
 <div class="secao-a-background">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-md-12">
 				<div class="secao-a clearfix  fadeInLeft wow">
 					<div class="desc  fadeIn wow" data-wow-delay="0.5s">
 						<h2>Pós-venda Alfabra</h2>
@@ -353,7 +353,7 @@ get_header(); ?>
 <div id="parceiros">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12  fadeInUp wow">
+			<div class="col-md-12  fadeInUp wow">
 				<h3>O que é Lorem Ipsum?</h3>
 				<p>
 					Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, 
@@ -362,16 +362,16 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-3  fadeInUp wow">
+			<div class="col-md-3  fadeInUp wow">
 				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.jpg"; ?>" />
 			</div>
-			<div class="col-sm-3  fadeInUp wow">
+			<div class="col-md-3  fadeInUp wow">
 				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.jpg"; ?>" />
 			</div>
-			<div class="col-sm-3  fadeInUp wow">
+			<div class="col-md-3  fadeInUp wow">
 				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.jpg"; ?>" />
 			</div>
-			<div class="col-sm-3  fadeInUp wow">
+			<div class="col-md-3  fadeInUp wow">
 				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.jpg"; ?>" />
 			</div>
 		</div>

@@ -30,9 +30,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
     margin: 0; }
   #page h1 {
-    color: #514aa3;
-    font-size: 24px;
-    font-weight: bold; }
+    color: #0048ff;
+    font-size: 24px; }
   #page h2 {
     color: #0048ff;
     font-size: 24px; }
@@ -72,6 +71,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       -o-transition: color 0.5s ease-in-out;
       -ms-transition: color 0.5s ease-in-out;
       transition: color 0.5s ease-in-out; }
+    #page nav#secundario div.menu-header a:first-child {
+      padding-right: 0; }
     #page nav#secundario div.menu-header a:hover {
       color: #0048ff; }
   #page nav#secundario.fixar {
@@ -126,7 +127,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     transition: opacity 1s ease-in-out; }
   #page #crossfade img.top:hover {
     opacity: 0; }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     #page div.menu-responsivo {
       width: 50px;
       text-align: left;
@@ -159,6 +160,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page .secao-a-background .row .secao-a .desc {
           text-align: left;
           padding: 30px 25px; }
+          #page .secao-a-background .row .secao-a .desc h1 {
+            display: inline-block;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #F0F0F0;
+            margin-bottom: 20px; }
           #page .secao-a-background .row .secao-a .desc h2 {
             display: inline-block;
             padding-bottom: 20px;
@@ -236,7 +242,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 10px; }
     #page #parceiros p {
       margin-bottom: 30px; }
-  @media (max-width: 768px) {
+  #page #breadcrumbs {
+    background-color: #ebeff4;
+    text-align: left;
+    padding: 15px 0; }
+  #page #elevadores h1 {
+    color: #226ffd;
+    text-align: left; }
+  #page #elevadores .audio-desc {
+    color: #226ffd; }
+  #page #elevadores .titulo {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  #page #elevadores #myTabs {
+    border-top: 1px solid #226ffd;
+    border-bottom: 1px solid #226ffd;
+    list-style-type: none;
+    padding: 0; }
+    #page #elevadores #myTabs li {
+      float: left;
+      width: 16.66%; }
+      #page #elevadores #myTabs li a {
+        color: #226ffd;
+        display: block;
+        padding: 15px 0px; }
+  @media (max-width: 992px) {
     #page .secao-a {
       display: -webkit-box;
       display: -moz-box;

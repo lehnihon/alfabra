@@ -19,6 +19,7 @@
 <?php wp_head(); ?>
 <script>
 new WOW().init();
+var templateUrl = '<?php echo get_stylesheet_directory_uri(); ?>';
 </script>
 </head>
 
@@ -27,13 +28,13 @@ new WOW().init();
 	<nav id="principal">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 text-left wow fadeIn">
+				<div class="col-md-3 text-left wow fadeIn">
 					<a id="crossfade" href="<?php echo home_url( '/' ); ?>">
 						<img alt="logo" class="bottom" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logob.png"; ?>" />
 						<img alt="logo" class="top" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" />
 					</a>
 				</div>
-				<div class="col-sm-9 wow fadeIn">
+				<div class="col-md-9 wow fadeIn">
 					<?php get_search_form(); ?>
 				</div>
 			</div>
@@ -42,7 +43,7 @@ new WOW().init();
 	<nav id="secundario">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 wow fadeIn">
+				<div class="col-md-12 wow fadeIn">
 					<div class="menu-responsivo">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
