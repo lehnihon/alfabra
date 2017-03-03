@@ -105,6 +105,7 @@ function site_scripts() {
 	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
 	wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/animate.css" );
 	wp_enqueue_style( 'site-style-hover', get_template_directory_uri() ."/hover.css" );
+	wp_enqueue_style( 'site-style-slickcss', get_template_directory_uri() ."/slick.css" );
 	wp_enqueue_style( 'site-style', get_template_directory_uri() ."/style.css" );
 	
 	wp_enqueue_script( 'site-script-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
@@ -114,6 +115,8 @@ function site_scripts() {
 	wp_enqueue_script( 'site-script-waypoints', 'http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js',array(),false,true);
 	wp_enqueue_script( 'site-script-counterup', get_template_directory_uri() . '/js/jquery.counterup.min.js',array(),false,true);
 	wp_enqueue_script( 'site-script-wow', get_template_directory_uri() . '/js/wow.min.js',array());
+	wp_enqueue_script( 'site-script-slick', get_template_directory_uri() . '/js/slick.min.js',array());
+	
 	wp_enqueue_script( 'site-script-site', get_template_directory_uri() . '/js/script.js',array(),false,true);
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

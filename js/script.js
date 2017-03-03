@@ -2,7 +2,6 @@
     var offset = $('#secundario').offset().top;
     var $meuMenu = $('#secundario'); // guardar o elemento na memoria para melhorar performance
     $(document).on('scroll', function () {
-
         if (offset <= $(window).scrollTop()) {
             $meuMenu.addClass('fixar');
         } else {
@@ -11,6 +10,27 @@
     });
 
   	$(function() {
+        $('.slider').slick({
+            mobileFirst:true,
+            arrows:false
+        });
+
+        $('.slickleft').click(function(){
+            $('.slider').slick('slickPrev');
+        });
+
+        $('.slickright').click(function(){
+            $('.slider').slick('slickNext');
+        });
+
+        for (i = 1; i < 9; i++) {
+            $('.item'+i).on('click', function(){
+                $('.slider').slick( "slickGoTo", i );
+                
+            });
+        };
+
+
 
         $('.videoWrapper').click(function () {
             $('.videoWrapper iframe').css("pointer-events", "auto");

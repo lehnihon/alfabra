@@ -15,7 +15,7 @@
 			}
 
 			.foto{
-				diplay:block;
+				display:block;
 				float:right;
 				width:65%;
 			}
@@ -170,6 +170,8 @@
 }
 
 #elevadores{
+	margin-bottom:50px;
+
 	h1{
 		color:#226ffd;
 		text-align:left;
@@ -179,9 +181,13 @@
 		color:#226ffd;
 	}
 
+	.audio{
+		cursor: pointer;
+	}
+
 	.titulo{
 		margin-top:25px;
-		margin-bottom:25px;
+		margin-bottom:20px;
 	}
 
 	#myTabs{
@@ -189,6 +195,7 @@
 		border-bottom:1px solid #226ffd;
 		list-style-type: none;
 		padding:0;
+		margin-bottom: 40px;
 
 		li{
 			float:left;
@@ -197,8 +204,160 @@
 			a{
 				color:#226ffd;
 				display:block;
+				font-weight: bold;
 				padding:15px 0px;
+	            -webkit-transition: background-color 0.5s ease-in-out;
+	            -moz-transition: background-color 0.5s ease-in-out;
+	            -o-transition: background-color 0.5s ease-in-out;
+	            -ms-transition: background-color 0.5s ease-in-out;    
+	            transition: background-color 0.5s ease-in-out;
 			}
+			a:hover{
+				background-color:#226ffd;
+				color:#FFF;
+			}
+		}
+		li.active{
+			background-color:#226ffd;				
+		}
+
+		li.active a{
+			color:#FFF;
+		} 
+	}
+
+	.conteudo{
+		.galeria{
+			div{
+				float:left;
+				width:48%;
+				cursor:pointer;
+
+				img{
+					border-radius: 6px;
+				}
+
+				img:hover{
+					-webkit-filter: grayscale(100%); 
+					filter: grayscale(100%);
+				}
+			}
+			.left{
+				margin-right: 4%;
+				margin-bottom: 3.5%;
+			}
+			.right{
+				margin-bottom: 3.5%;
+			}
+			.bot{
+				margin-right: 4%;
+			}
+
+		}
+		.banner{
+			position: relative;
+
+			.slider{
+				div{
+					border-radius: 6px;
+					img{
+						border-radius: 6px;
+					}
+				}
+			}
+			.slickleft{
+				width: 62px;
+				height: 62px;
+				background-image: url(images/prev.png);
+				cursor: pointer;
+				z-index: 1000;
+				position: absolute;
+				left:30px;
+				top:40%;
+			}
+			.slickright{
+				width: 62px;
+				height: 62px;
+				background-image: url(images/next.png);
+				cursor: pointer;
+				z-index: 1000;
+				position: absolute;
+				right:30px;
+				top:40%;
+			}
+		}
+	}
+}
+
+#elevadores-rel{
+	margin-bottom:40px;
+
+	.titulo{
+		h2{
+			color: #47a030;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			border-bottom: 1px solid #47a030; 
+			text-align: left;
+			font-size: 21px;
+		}
+	}
+
+	.conteudo{
+		img{
+			border-radius:6px;
+		}
+
+		p{
+			background-color:#ebeff4;
+			color: #47a030;
+			padding:10px 30px;
+			margin-top: 5px;
+			border-radius:6px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+#elevadores-desc{
+
+	.audio-desc{
+		color:#226ffd;
+	}
+
+	.audio{
+		cursor: pointer;
+	}
+
+	.titulo{
+		border-top:1px solid #226ffd;
+		border-bottom:1px solid #226ffd;
+		padding:15px 0;
+		margin-bottom: 20px;
+		h2{
+			color:#226ffd;
+			text-align:left;
+			font-size: 21px;
+		}
+	}
+	.conteudo{
+		text-align: left;
+		h5{
+			color: #226ffd;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			display: inline-block;
+		}
+
+		p{
+			text-align: left;
+		}		
+		.saiba-leis{
+			color: #226ffd;
+			border-bottom:1px solid #226ffd;
+			font-style: italic;
+			display: inline-block;
+			text-align: left;
 		}
 	}
 }

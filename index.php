@@ -23,7 +23,7 @@ get_header(); ?>
 							tecnologia e design, estando presentes nos endereços mais 
 							refinados do Brasil!
 						</p>
-						<a href="<?php echo home_url( '/' )."categoria/elevadores-panoramicos"; ?>">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-panoramicos"; ?>">saiba mais ></a>
 					</div>
 					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Panoramicos Alfabra Elevadores.jpg"; ?>" />
@@ -350,6 +350,7 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+
 <div id="parceiros">
 	<div class="container">
 		<div class="row">
@@ -372,7 +373,7 @@ get_header(); ?>
 				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.jpg"; ?>" />
 			</div>
 			<div class="col-md-3  fadeInUp wow">
-				<img alt="logo" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.jpg"; ?>" />
+				
 			</div>
 		</div>
 	</div>

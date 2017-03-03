@@ -152,7 +152,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           float: left;
           width: 35%; }
         #page .secao-a-background .row .secao-a .foto {
-          diplay: block;
+          display: block;
           float: right;
           width: 65%; }
         #page .secao-a-background .row .secao-a img.home-image {
@@ -246,26 +246,130 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #ebeff4;
     text-align: left;
     padding: 15px 0; }
-  #page #elevadores h1 {
-    color: #226ffd;
-    text-align: left; }
-  #page #elevadores .audio-desc {
+  #page #elevadores {
+    margin-bottom: 50px; }
+    #page #elevadores h1 {
+      color: #226ffd;
+      text-align: left; }
+    #page #elevadores .audio-desc {
+      color: #226ffd; }
+    #page #elevadores .audio {
+      cursor: pointer; }
+    #page #elevadores .titulo {
+      margin-top: 25px;
+      margin-bottom: 20px; }
+    #page #elevadores #myTabs {
+      border-top: 1px solid #226ffd;
+      border-bottom: 1px solid #226ffd;
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 40px; }
+      #page #elevadores #myTabs li {
+        float: left;
+        width: 16.66%; }
+        #page #elevadores #myTabs li a {
+          color: #226ffd;
+          display: block;
+          font-weight: bold;
+          padding: 15px 0px;
+          -webkit-transition: background-color 0.5s ease-in-out;
+          -moz-transition: background-color 0.5s ease-in-out;
+          -o-transition: background-color 0.5s ease-in-out;
+          -ms-transition: background-color 0.5s ease-in-out;
+          transition: background-color 0.5s ease-in-out; }
+        #page #elevadores #myTabs li a:hover {
+          background-color: #226ffd;
+          color: #FFF; }
+      #page #elevadores #myTabs li.active {
+        background-color: #226ffd; }
+      #page #elevadores #myTabs li.active a {
+        color: #FFF; }
+    #page #elevadores .conteudo .galeria div {
+      float: left;
+      width: 48%;
+      cursor: pointer; }
+      #page #elevadores .conteudo .galeria div img {
+        border-radius: 6px; }
+      #page #elevadores .conteudo .galeria div img:hover {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%); }
+    #page #elevadores .conteudo .galeria .left {
+      margin-right: 4%;
+      margin-bottom: 3.5%; }
+    #page #elevadores .conteudo .galeria .right {
+      margin-bottom: 3.5%; }
+    #page #elevadores .conteudo .galeria .bot {
+      margin-right: 4%; }
+    #page #elevadores .conteudo .banner {
+      position: relative; }
+      #page #elevadores .conteudo .banner .slider div {
+        border-radius: 6px; }
+        #page #elevadores .conteudo .banner .slider div img {
+          border-radius: 6px; }
+      #page #elevadores .conteudo .banner .slickleft {
+        width: 62px;
+        height: 62px;
+        background-image: url(images/prev.png);
+        cursor: pointer;
+        z-index: 1000;
+        position: absolute;
+        left: 30px;
+        top: 40%; }
+      #page #elevadores .conteudo .banner .slickright {
+        width: 62px;
+        height: 62px;
+        background-image: url(images/next.png);
+        cursor: pointer;
+        z-index: 1000;
+        position: absolute;
+        right: 30px;
+        top: 40%; }
+  #page #elevadores-rel {
+    margin-bottom: 40px; }
+    #page #elevadores-rel .titulo h2 {
+      color: #47a030;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #47a030;
+      text-align: left;
+      font-size: 21px; }
+    #page #elevadores-rel .conteudo img {
+      border-radius: 6px; }
+    #page #elevadores-rel .conteudo p {
+      background-color: #ebeff4;
+      color: #47a030;
+      padding: 10px 30px;
+      margin-top: 5px;
+      border-radius: 6px;
+      margin-bottom: 0; }
+  #page #elevadores-desc .audio-desc {
     color: #226ffd; }
-  #page #elevadores .titulo {
-    margin-top: 25px;
-    margin-bottom: 25px; }
-  #page #elevadores #myTabs {
+  #page #elevadores-desc .audio {
+    cursor: pointer; }
+  #page #elevadores-desc .titulo {
     border-top: 1px solid #226ffd;
     border-bottom: 1px solid #226ffd;
-    list-style-type: none;
-    padding: 0; }
-    #page #elevadores #myTabs li {
-      float: left;
-      width: 16.66%; }
-      #page #elevadores #myTabs li a {
-        color: #226ffd;
-        display: block;
-        padding: 15px 0px; }
+    padding: 15px 0;
+    margin-bottom: 20px; }
+    #page #elevadores-desc .titulo h2 {
+      color: #226ffd;
+      text-align: left;
+      font-size: 21px; }
+  #page #elevadores-desc .conteudo {
+    text-align: left; }
+    #page #elevadores-desc .conteudo h5 {
+      color: #226ffd;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      display: inline-block; }
+    #page #elevadores-desc .conteudo p {
+      text-align: left; }
+    #page #elevadores-desc .conteudo .saiba-leis {
+      color: #226ffd;
+      border-bottom: 1px solid #226ffd;
+      font-style: italic;
+      display: inline-block;
+      text-align: left; }
   @media (max-width: 992px) {
     #page .secao-a {
       display: -webkit-box;
