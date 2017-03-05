@@ -98,6 +98,14 @@ function site_widgets_init() {
 }
 add_action( 'widgets_init', 'site_widgets_init' );
 
+add_action( 'init', 'wpse48017_remove_tags' );
+function wpse48017_remove_tags() {
+    global $wp_taxonomies;
+    $tax = 'post_tag'; // this may be wrong, I never remember the names on the defaults
+    if( taxonomy_exists( $tax ) )
+        unset( $wp_taxonomies[$tax] );
+}
+
 /**
  * Enqueue scripts and styles.
  */
@@ -124,6 +132,57 @@ function site_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
+
+function change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Elevador';
+    $submenu['edit.php'][5][0] = 'Elevador';
+    $submenu['edit.php'][10][0] = 'Adicionar Elevador';
+    echo '';
+}
+function change_post_object_label() {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Elevador';
+        $labels->singular_name = 'Elevador';
+        $labels->add_new = 'Adicionar Elevador';
+        $labels->add_new_item = 'Adicionar Elevador';
+        $labels->edit_item = 'Editar Elevador';
+        $labels->new_item = 'Elevador';
+        $labels->view_item = 'Ver Elevador';
+        $labels->search_items = 'Procurar Elevador';
+        $labels->not_found = 'Elevador não encontrado';
+        $labels->not_found_in_trash = 'Sem Elevadores na lixeira';
+}
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
+
+function register_taxonomy_categoria(){
+    $labels = array(
+        'name'              => _x( 'Item', 'taxonomy general name' ),
+        'singular_name'     => _x( 'Itens', 'taxonomy singular name' ),
+        'search_items'      => __( 'Procurar Item' ),
+        'all_items'         => __( 'Todas Item' ),
+        'parent_item'       => __( 'Parent Course' ),
+        'parent_item_colon' => __( 'Parent Course:' ),
+        'edit_item'         => __( 'Editar Item' ),
+        'update_item'       => __( 'Atualizar Item' ),
+        'add_new_item'      => __( 'Adicionar Item' ),
+        'new_item_name'     => __( 'Nome Nova Item' ),
+        'menu_name'         => __( 'Item' ),
+    );
+ 
+    $args = array(
+        'hierarchical'      => true,
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true
+    );
+	register_taxonomy( 'categoria_item', 'post', $args );
+}
+add_action('init','register_taxonomy_categoria');
 
 // Change number or products per row to 3
 add_filter('loop_shop_columns', 'loop_columns');

@@ -25,7 +25,7 @@ get_header(); ?>
 						</p>
 						<a href="<?php echo home_url( '/' )."elevadores/elevadores-panoramicos"; ?>">saiba mais ></a>
 					</div>
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-panoramicos"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Panoramicos Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -41,7 +41,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-passageiros"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Passageiros Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -60,7 +60,7 @@ get_header(); ?>
 							que você precisa em seu imóvel. Suas principais capacidades 
 							são 4 pessoas 300 Kg, chegando até 33 pessoas e 2475 Kg.
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-passageiros"; ?>">saiba mais ></a>
 					</div>
 				</div>
 			</div>
@@ -83,9 +83,9 @@ get_header(); ?>
 						mobilidade que a <strong>sua clínica ou hospital necessita.</strong>
 						</p>
 
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-macas-e-leitos"; ?>">saiba mais ></a>
 					</div>
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-macas-e-leitos"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Macas e Leitos Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>

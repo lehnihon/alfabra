@@ -60,21 +60,53 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding: 10px 0; }
   #page nav#secundario {
     background-color: #FFFFFF; }
-    #page nav#secundario div.menu-header a {
-      display: block;
-      float: right;
-      padding: 10px 30px;
-      color: #343841;
-      font-size: 16px;
-      -webkit-transition: color 0.5s ease-in-out;
-      -moz-transition: color 0.5s ease-in-out;
-      -o-transition: color 0.5s ease-in-out;
-      -ms-transition: color 0.5s ease-in-out;
-      transition: color 0.5s ease-in-out; }
-    #page nav#secundario div.menu-header a:first-child {
+    #page nav#secundario div.menu-header .nav-item {
+      float: right; }
+      #page nav#secundario div.menu-header .nav-item a.nav-link {
+        display: block;
+        padding: 10px 30px;
+        color: #343841;
+        font-size: 16px;
+        -webkit-transition: color 0.5s ease-in-out;
+        -moz-transition: color 0.5s ease-in-out;
+        -o-transition: color 0.5s ease-in-out;
+        -ms-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+    #page nav#secundario div.menu-header a.nav-link:first-child {
       padding-right: 0; }
-    #page nav#secundario div.menu-header a:hover {
+    #page nav#secundario div.menu-header a.nav-link:hover {
       color: #0048ff; }
+    #page nav#secundario div.menu-header .fale-conosco-menu {
+      position: relative; }
+      #page nav#secundario div.menu-header .fale-conosco-menu div.fale-conosco-drop {
+        display: none;
+        text-align: left;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 400px;
+        background-color: #e5e7ea;
+        z-index: 1000;
+        padding: 10px; }
+        #page nav#secundario div.menu-header .fale-conosco-menu div.fale-conosco-drop div {
+          padding: 5px 10px; }
+          #page nav#secundario div.menu-header .fale-conosco-menu div.fale-conosco-drop div a {
+            color: #0048ff;
+            display: block; }
+          #page nav#secundario div.menu-header .fale-conosco-menu div.fale-conosco-drop div a:hover {
+            font-weight: bold; }
+      #page nav#secundario div.menu-header .fale-conosco-menu .fale-conosco-drop:after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: 35px;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-bottom: solid 10px #e5e7ea;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+        z-index: 1001; }
   #page nav#secundario.fixar {
     padding: 0 !important;
     position: fixed !important;
@@ -246,125 +278,128 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #ebeff4;
     text-align: left;
     padding: 15px 0; }
-  #page #elevadores {
-    margin-bottom: 50px; }
-    #page #elevadores h1 {
-      color: #226ffd;
-      text-align: left; }
-    #page #elevadores .audio-desc {
-      color: #226ffd; }
-    #page #elevadores .audio {
-      cursor: pointer; }
-    #page #elevadores .titulo {
-      margin-top: 25px;
-      margin-bottom: 20px; }
-    #page #elevadores #myTabs {
-      border-top: 1px solid #226ffd;
-      border-bottom: 1px solid #226ffd;
-      list-style-type: none;
-      padding: 0;
-      margin-bottom: 40px; }
-      #page #elevadores #myTabs li {
-        float: left;
-        width: 16.66%; }
-        #page #elevadores #myTabs li a {
-          color: #226ffd;
-          display: block;
-          font-weight: bold;
-          padding: 15px 0px;
-          -webkit-transition: background-color 0.5s ease-in-out;
-          -moz-transition: background-color 0.5s ease-in-out;
-          -o-transition: background-color 0.5s ease-in-out;
-          -ms-transition: background-color 0.5s ease-in-out;
-          transition: background-color 0.5s ease-in-out; }
-        #page #elevadores #myTabs li a:hover {
-          background-color: #226ffd;
-          color: #FFF; }
-      #page #elevadores #myTabs li.active {
-        background-color: #226ffd; }
-      #page #elevadores #myTabs li.active a {
-        color: #FFF; }
-    #page #elevadores .conteudo .galeria div {
-      float: left;
-      width: 48%;
-      cursor: pointer; }
-      #page #elevadores .conteudo .galeria div img {
-        border-radius: 6px; }
-      #page #elevadores .conteudo .galeria div img:hover {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%); }
-    #page #elevadores .conteudo .galeria .left {
-      margin-right: 4%;
-      margin-bottom: 3.5%; }
-    #page #elevadores .conteudo .galeria .right {
-      margin-bottom: 3.5%; }
-    #page #elevadores .conteudo .galeria .bot {
-      margin-right: 4%; }
-    #page #elevadores .conteudo .banner {
-      position: relative; }
-      #page #elevadores .conteudo .banner .slider div {
-        border-radius: 6px; }
-        #page #elevadores .conteudo .banner .slider div img {
-          border-radius: 6px; }
-      #page #elevadores .conteudo .banner .slickleft {
-        width: 62px;
-        height: 62px;
-        background-image: url(images/prev.png);
-        cursor: pointer;
-        z-index: 1000;
-        position: absolute;
-        left: 30px;
-        top: 40%; }
-      #page #elevadores .conteudo .banner .slickright {
-        width: 62px;
-        height: 62px;
-        background-image: url(images/next.png);
-        cursor: pointer;
-        z-index: 1000;
-        position: absolute;
-        right: 30px;
-        top: 40%; }
-  #page #elevadores-rel {
+  #page #elevadores .tab ul {
+    list-style-type: none;
+    margin-bottom: 20px; }
+    #page #elevadores .tab ul li {
+      margin: 25px 0px; }
+    #page #elevadores .tab ul li:before {
+      content: "\2713 \00a0";
+      font-weight: bold;
+      color: #0048ff; }
+  #page #elevadores h1 {
+    color: #226ffd;
+    text-align: left; }
+  #page #elevadores .audio-desc {
+    color: #226ffd; }
+  #page #elevadores .audio {
+    cursor: pointer; }
+  #page #elevadores .titulo {
+    margin-top: 25px;
+    margin-bottom: 20px; }
+  #page #elevadores #myTabs {
+    border-top: 1px solid #226ffd;
+    border-bottom: 1px solid #226ffd;
+    list-style-type: none;
+    padding: 0;
     margin-bottom: 40px; }
-    #page #elevadores-rel .titulo h2 {
+    #page #elevadores #myTabs li {
+      float: left;
+      width: 16.66%; }
+      #page #elevadores #myTabs li a {
+        color: #226ffd;
+        display: block;
+        padding: 15px 0px;
+        -webkit-transition: background-color 0.5s ease-in-out;
+        -moz-transition: background-color 0.5s ease-in-out;
+        -o-transition: background-color 0.5s ease-in-out;
+        -ms-transition: background-color 0.5s ease-in-out;
+        transition: background-color 0.5s ease-in-out; }
+      #page #elevadores #myTabs li a:hover {
+        font-weight: bold; }
+    #page #elevadores #myTabs li.active a {
+      font-weight: bold; }
+  #page #elevadores .elevadores-img .galeria div {
+    float: left;
+    width: 48%;
+    cursor: pointer; }
+    #page #elevadores .elevadores-img .galeria div img {
+      border-radius: 6px; }
+    #page #elevadores .elevadores-img .galeria div img:hover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+  #page #elevadores .elevadores-img .galeria .left {
+    margin-right: 4%;
+    margin-bottom: 3.5%; }
+  #page #elevadores .elevadores-img .galeria .right {
+    margin-bottom: 3.5%; }
+  #page #elevadores .elevadores-img .galeria .bot {
+    margin-right: 4%; }
+  #page #elevadores .elevadores-img .banner {
+    position: relative; }
+    #page #elevadores .elevadores-img .banner .slider div {
+      border-radius: 6px; }
+      #page #elevadores .elevadores-img .banner .slider div img {
+        border-radius: 6px; }
+    #page #elevadores .elevadores-img .banner .slickleft {
+      width: 62px;
+      height: 62px;
+      background-image: url(images/prev.png);
+      cursor: pointer;
+      z-index: 1000;
+      position: absolute;
+      left: 30px;
+      top: 40%; }
+    #page #elevadores .elevadores-img .banner .slickright {
+      width: 62px;
+      height: 62px;
+      background-image: url(images/next.png);
+      cursor: pointer;
+      z-index: 1000;
+      position: absolute;
+      right: 30px;
+      top: 40%; }
+  #page #elevadores .elevadores-rel {
+    margin-bottom: 40px; }
+    #page #elevadores .elevadores-rel .titulo h2 {
       color: #47a030;
       padding-bottom: 15px;
       margin-bottom: 15px;
       border-bottom: 1px solid #47a030;
       text-align: left;
       font-size: 21px; }
-    #page #elevadores-rel .conteudo img {
+    #page #elevadores .elevadores-rel .conteudo img {
       border-radius: 6px; }
-    #page #elevadores-rel .conteudo p {
+    #page #elevadores .elevadores-rel .conteudo p {
       background-color: #ebeff4;
       color: #47a030;
       padding: 10px 30px;
       margin-top: 5px;
       border-radius: 6px;
       margin-bottom: 0; }
-  #page #elevadores-desc .audio-desc {
+  #page #elevadores .elevadores-desc .audio-desc {
     color: #226ffd; }
-  #page #elevadores-desc .audio {
+  #page #elevadores .elevadores-desc .audio {
     cursor: pointer; }
-  #page #elevadores-desc .titulo {
+  #page #elevadores .elevadores-desc .titulo {
     border-top: 1px solid #226ffd;
     border-bottom: 1px solid #226ffd;
     padding: 15px 0;
     margin-bottom: 20px; }
-    #page #elevadores-desc .titulo h2 {
+    #page #elevadores .elevadores-desc .titulo h2 {
       color: #226ffd;
       text-align: left;
       font-size: 21px; }
-  #page #elevadores-desc .conteudo {
+  #page #elevadores .elevadores-desc .conteudo {
     text-align: left; }
-    #page #elevadores-desc .conteudo h5 {
+    #page #elevadores .elevadores-desc .conteudo h5 {
       color: #226ffd;
       margin-bottom: 10px;
       margin-top: 10px;
       display: inline-block; }
-    #page #elevadores-desc .conteudo p {
+    #page #elevadores .elevadores-desc .conteudo p {
       text-align: left; }
-    #page #elevadores-desc .conteudo .saiba-leis {
+    #page #elevadores .elevadores-desc .conteudo .saiba-leis {
       color: #226ffd;
       border-bottom: 1px solid #226ffd;
       font-style: italic;

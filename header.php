@@ -58,12 +58,22 @@ var templateUrl = '<?php echo get_stylesheet_directory_uri(); ?>';
 						</ul>
 					</div>
 					<div class="menu-header clearfix">
-						<a href="#">fale conosco</a>
-						<a href="#">leis e normas</a>
-						<a href="#">pós venda</a>
-						<a href="#">elevadores</a>
-						<a href="#">a empresa</a>
-						<a href="#">início</a>
+						<div class="fale-conosco-menu nav-item hero">
+							<a class="nav-link fale-conosco-link" href="#">fale conosco</a>
+							<div class="fale-conosco-drop">
+								<div><a href="#">quero um orçamento de produtos Alfabra</a></div>
+								<div><a href="#">quero um orçamento de manutenção e serviços</a></div>
+								<div><a href="#">abertura de chamados - somente pra clientes Alfabra</a></div>
+								<div><a href="#">seja um forncedor Alfabra</a></div>
+								<div><a href="#">trabalhe conosco</a></div>
+								<div><a href="#">sac</a></div>
+							</div>
+						</div>
+						<div class="nav-item"><a class="nav-link" href="#">leis e normas</a></div>
+						<div class="nav-item"><a class="nav-link" href="#">pós venda</a></div>
+						<div class="nav-item"><a class="nav-link" href="#">elevadores</a></div>
+						<div class="nav-item"><a class="nav-link" href="#">a empresa</a></div>
+						<div class="nav-item"><a class="nav-link" href="#">início</a></div>
 					</div>
 				</div>
 			</div>

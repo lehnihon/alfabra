@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row titulo">
 			<div class="col-md-6">
-				<h1>elevadores panorâmicos</h1>
+				<h1>elevadores de passageiros</h1>
 			</div>
 			<div class="col-md-6 text-right">
 				<span class="audio-desc">apresentação em áudio</span>
@@ -45,27 +45,27 @@ get_header(); ?>
 				<div class="tab-pane fade in active" id="nav1">
 					<div class="row elevadores-img">
 						<div class="galeria col-md-4 clearfix">
-							<div class="item1 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 01 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item2 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 02 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item3 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 03 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item4 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 04 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item5 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 05 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item6 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 06 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item7 bot"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 07 Elevadores panoramicos.jpg"; ?>" /></div>
-							<div class="item8"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 08 Elevadores panoramicos.jpg"; ?>" /></div>
+							<div class="item1 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 01 Elevador de Passageiros Bio Ritmo.jpg"; ?>" /></div>
+							<div class="item2 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 02  Elevador Panoramico VSP Papeis.jpg"; ?>" /></div>
+							<div class="item3 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 03 Elevador Panoramico Potenza.jpg"; ?>" /></div>
+							<div class="item4 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 04 Elevador de Passageiros Bio Ritmo.jpg"; ?>" /></div>
+							<div class="item5 left"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 05 Elevador Panoramico Cleber Lopes.jpg"; ?>" /></div>
+							<div class="item6 right"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 06 Elevador de Passageiro Sweden.jpg"; ?>" /></div>
+							<div class="item7 bot"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 07 Elevador de Passageiros Emporio Sao Paulo.jpg"; ?>" /></div>
+							<div class="item8"><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 08 Elevador de Passageiros Chamada Belle.jpg"; ?>" /></div>
 						</div>                 
 						<div class="col-md-8 banner">
 							<div class="slickleft"></div>
 							<div class="slickright"></div>
 							<div class="slider">
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 01 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 02 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 03 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 04 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 05 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 06 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 07 Elevadores panoramicos.jpg"; ?>" /></div>
-								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores panoramicos/Alfabra Banner 08 Elevadores panoramicos.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 01 Elevador de Passageiros Bio Ritmo.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 02  Elevador Panoramico VSP Papeis.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 03 Elevador Panoramico Potenza.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 04 Elevador de Passageiros Bio Ritmo.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 05 Elevador Panoramico Cleber Lopes.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 06 Elevador de Passageiro Sweden.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 07 Elevador de Passageiros Emporio Sao Paulo.jpg"; ?>" /></div>
+								<div><img class="img-responsive" alt="galeria" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/elevadores de passageiros/Alfabra 08 Elevador de Passageiros Chamada Belle.jpg"; ?>" /></div>
 							</div>
 						</div>
 					</div>
@@ -94,7 +94,7 @@ get_header(); ?>
 						<div class="titulo">
 							<div class="row">
 								<div class="col-md-6">
-									<h2>elevadores panorâmicos</h2>
+									<h2>elevadores de passageiros</h2>
 								</div>
 								<div class="col-md-6 text-right">
 									<span class="audio-desc">apresentação em áudio</span>
@@ -110,7 +110,7 @@ get_header(); ?>
 							<div class="col-md-12">
 								<?php
 								$args = array(
-								    'category_name' => 'Elevadores Panorâmicos',
+								    'category_name' => 'Elevadores de Passageiros',
 								    'tax_query' => array(array('taxonomy' => 'categoria_item', 'field' => 'slug', 'terms' => 'detalhes') )
 								);
 								$query = new WP_Query( $args ); 
@@ -129,7 +129,7 @@ get_header(); ?>
 				<div class="tab-pane fade text-left" id="nav2">
 					<?php
 					$args = array(
-					    'category_name' => 'Elevadores Panorâmicos',
+					    'category_name' => 'Elevadores de Passageiros',
 					    'tax_query' => array(array('taxonomy' => 'categoria_item', 'field' => 'slug', 'terms' => 'regulamentacao') )
 					);
 					$query = new WP_Query( $args ); 
@@ -146,7 +146,7 @@ get_header(); ?>
 				<div class="tab-pane fade" id="nav4">
 					<?php
 					$args = array(
-					    'category_name' => 'Elevadores Panorâmicos',
+					    'category_name' => 'Elevadores de Passageiros',
 					    'tax_query' => array(array('taxonomy' => 'categoria_item', 'field' => 'slug', 'terms' => 'galeria') )
 					);
 					$query = new WP_Query( $args ); 

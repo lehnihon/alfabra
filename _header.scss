@@ -14,26 +14,68 @@ nav#principal{
 nav#secundario{
     background-color:#FFFFFF;
     div.menu-header{
-        a{
-            display:block;
+        .nav-item{
             float:right;
-            padding: 10px 30px;
-            color:#343841;
-            font-size:16px;
-            -webkit-transition: color 0.5s ease-in-out;
-            -moz-transition: color 0.5s ease-in-out;
-            -o-transition: color 0.5s ease-in-out;
-            -ms-transition: color 0.5s ease-in-out;    
-            transition: color 0.5s ease-in-out;
+
+            a.nav-link{
+                display: block;
+                padding: 10px 30px;
+                color:#343841;
+                font-size:16px;
+                -webkit-transition: color 0.5s ease-in-out;
+                -moz-transition: color 0.5s ease-in-out;
+                -o-transition: color 0.5s ease-in-out;
+                -ms-transition: color 0.5s ease-in-out;    
+                transition: color 0.5s ease-in-out;                
+            }
         }
 
-        a:first-child{
+        a.nav-link:first-child{
             padding-right:0;
         }
 
-        a:hover{
+        a.nav-link:hover{
             color:#0048ff;
         }
+
+        .fale-conosco-menu{
+            position:relative;
+            div.fale-conosco-drop{
+                display: none;
+                text-align: left;
+                position:absolute;
+                top:40px;
+                right:0;
+                width: 400px;
+                background-color:#e5e7ea;
+                z-index: 1000;
+                padding:10px;
+                div{
+                    padding:5px 10px;
+                    a{
+                        color:#0048ff;
+                        display: block;
+                    }    
+                    a:hover{
+                        font-weight: bold;
+                    }                
+                }            
+            }
+            .fale-conosco-drop:after {
+                content:'';
+                position: absolute;
+                top: -10px;
+                right: 35px;
+                margin: 0 auto;
+                width: 0;
+                height: 0;
+                border-bottom: solid 10px #e5e7ea;
+                border-left: solid 10px transparent;
+                border-right: solid 10px transparent;
+                z-index: 1001;
+            }
+        }
+
 
     }
 }
