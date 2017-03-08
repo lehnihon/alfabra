@@ -6,6 +6,10 @@
 		margin-bottom:30px;
 
 		.secao-a {
+		    display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
 			border-radius:5px;
 			background-color:#FFFFFF;
 
@@ -18,9 +22,6 @@
 				display:block;
 				float:right;
 				width:65%;
-			}
-
-			img.home-image{
 				border-left:15px solid #ebeff4;
 			}
 
@@ -65,6 +66,10 @@
 		.secao-b {
 			border-radius:5px;
 			background-color:#ebeff4;
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
 
 			.desc{
 				float:right;
@@ -75,9 +80,6 @@
 				diplay:block;
 				float:left;
 				width:65%;
-			}
-
-			img.home-image{
 				border-right:15px solid #FFFFFF;
 			}
 
@@ -392,6 +394,7 @@
 			float:none !important;
 			order: 1;
 			flex: 1 100%;
+			border-left:0 !important;
 		}
 		img{
 			border-left:0 !important;
@@ -416,6 +419,7 @@
 			float:none !important;
 			order: 1;
 			flex: 1 100%;
+			border-right:0 !important;
 		}
 		img{
 			border-right:0 !important;

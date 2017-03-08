@@ -178,6 +178,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page .secao-a-background .row {
       margin-bottom: 30px; }
       #page .secao-a-background .row .secao-a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
         border-radius: 5px;
         background-color: #FFFFFF; }
         #page .secao-a-background .row .secao-a .desc {
@@ -186,8 +190,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page .secao-a-background .row .secao-a .foto {
           display: block;
           float: right;
-          width: 65%; }
-        #page .secao-a-background .row .secao-a img.home-image {
+          width: 65%;
           border-left: 15px solid #ebeff4; }
         #page .secao-a-background .row .secao-a .desc {
           text-align: left;
@@ -215,15 +218,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 30px; }
       #page .secao-b-background .row .secao-b {
         border-radius: 5px;
-        background-color: #ebeff4; }
+        background-color: #ebeff4;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
         #page .secao-b-background .row .secao-b .desc {
           float: right;
           width: 35%; }
         #page .secao-b-background .row .secao-b .foto {
           diplay: block;
           float: left;
-          width: 65%; }
-        #page .secao-b-background .row .secao-b img.home-image {
+          width: 65%;
           border-right: 15px solid #FFFFFF; }
         #page .secao-b-background .row .secao-b .desc {
           text-align: left;
@@ -421,7 +427,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page .secao-a .foto {
         float: none !important;
         order: 1;
-        flex: 1 100%; }
+        flex: 1 100%;
+        border-left: 0 !important; }
       #page .secao-a img {
         border-left: 0 !important; }
     #page .secao-b {
@@ -439,7 +446,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page .secao-b .foto {
         float: none !important;
         order: 1;
-        flex: 1 100%; }
+        flex: 1 100%;
+        border-right: 0 !important; }
       #page .secao-b img {
         border-right: 0 !important; } }
   #page #footer {

@@ -101,7 +101,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-residenciais"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores Residenciais Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -123,7 +123,7 @@ get_header(); ?>
 							Na falta de luz, o elevador Iter Plus desce automaticamente 
 							ao primeiro piso, <strong>sem a necessidade de geradores.</strong>
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-residenciais"; ?>">saiba mais ></a>
 					</div>
 				</div>
 			</div>
@@ -149,9 +149,9 @@ get_header(); ?>
 							para 3 pessoas e transportam cargas até 225Kg em prédios e 
 							casas com percursos de até 12 metros.
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-uso-restrito-acessibilidade"; ?>">saiba mais ></a>
 					</div>
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-uso-restrito-acessibilidade"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores para Acessibilidade Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -212,9 +212,9 @@ get_header(); ?>
 							permitem o transporte das pessoas que acompanham os 
 							veículos, sem abrir mão do conforto a bordo!
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevador-de-carga-automotivo"; ?>">saiba mais ></a>
 					</div>
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevador-de-carga-automotivo"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores para carros garagens verticais.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -230,7 +230,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-uso-misto-carga-e-passageiros"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Uso Misto Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -248,7 +248,7 @@ get_header(); ?>
 							nossos elevadores de carga e a elegância, sofisticação e 
 							tecnologia dos nossos elevadores para pessoas.
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-uso-misto-carga-e-passageiros"; ?>">saiba mais ></a>
 					</div>
 				</div>
 			</div>
@@ -275,9 +275,9 @@ get_header(); ?>
 							à prova de explosão, para transporte de cargas perigosas e uso 
 							em áreas classificadas e com atmosferas explosivas.
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-carga"; ?>">saiba mais ></a>
 					</div>
-					<a href="#" class="foto fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-de-carga"; ?>" class="foto fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Elevadores de Cargas Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -293,7 +293,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="secao-b clearfix  fadeInRight wow">
-					<a href="#" class="foto  fadeIn wow" data-wow-delay="0.75s">
+					<a href="<?php echo home_url( '/' )."elevadores/elevadores-monta-cargas-ou-monta-pratos"; ?>" class="foto  fadeIn wow" data-wow-delay="0.75s">
 						<img alt="logo" class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Monta Cargas e Monta Pratos Alfabra Elevadores.jpg"; ?>" />
 						<div class="middle">
 							<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
@@ -313,7 +313,7 @@ get_header(); ?>
 							como <strong>monta pratos ou monta papel</strong>, são exclusivos para 
 							transporte de cargas até o limite de 300 Kg.
 						</p>
-						<a href="#">saiba mais ></a>
+						<a href="<?php echo home_url( '/' )."elevadores/elevadores-monta-cargas-ou-monta-pratos"; ?>">saiba mais ></a>
 					</div>
 				</div>
 			</div>
